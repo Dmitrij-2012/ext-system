@@ -1,4 +1,4 @@
-package network;
+package edu.javacourse.net;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -56,8 +56,6 @@ public class Client {
 		        }
 
 	       
-        
-
 	    }
 
 }
