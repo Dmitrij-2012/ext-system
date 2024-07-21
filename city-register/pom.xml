@@ -6,6 +6,9 @@
 	<groupId>edu.javacourse.ext</groupId>
 	<artifactId>city-register</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	
+	
 	
 	 <build>
         <plugins>
@@ -17,6 +20,18 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+            
+             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+           
+            
+           
+            
         </plugins>
     </build>
 
@@ -37,5 +52,8 @@
 		</dependency>
 
 	</dependencies>
+	
+	
+
 
 </project>
